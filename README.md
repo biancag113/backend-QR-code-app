@@ -9,3 +9,5 @@ gem 'amplify-rails' (see line 18 on Gemfile)
 <h3>Model:</h3>
 
 User  -> QRcode <-> retailer/restuarant 
+User has many QRcodes
+QRcode belongs to a User
